@@ -151,15 +151,15 @@ export const category3: ICategory = {
   }, {
     questionId: 8,
     type: MULTIPLE_CHOICE,
-    title: '@{lab.sm.data.c3.q5.title}',
-    description: '@{lab.sm.data.c3.q5.description}',
+    title: '@{lab.sm.data.c3.q8.title}',
+    description: '@{lab.sm.data.c3.q8.description}',
     hardcoreness: HardcorenessMetrics.MILD,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c3.q5.a0}',
-      '@{lab.sm.data.c3.q5.a1}',
-      '@{lab.sm.data.c3.q5.a2}',
-      '@{lab.sm.data.c3.q5.a3}',
+      '@{lab.sm.data.c3.q8.a0}',
+      '@{lab.sm.data.c3.q8.a1}',
+      '@{lab.sm.data.c3.q8.a2}',
+      '@{lab.sm.data.c3.q8.a3}',
     ],
     dependencies: {
       '3.0': [ 0, 1, 2 ],
