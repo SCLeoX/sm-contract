@@ -1,0 +1,167 @@
+[
+  # React
+  # https://reactjs.org/docs/cdn-links.html
+  {
+    source: 'link'
+    name: 'react'
+    address: 'https://unpkg.com/react@16/umd/react.<%= isProduction ? "production.min" : "development" %>.js'
+    exports:
+      'react.<%= isProduction ? "production.min" : "development" %>.js': 'react.js'
+  }
+
+  # React TS Definition
+  # https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react/index.d.ts
+  {
+    source: 'link'
+    name: 'react.d.ts'
+    address: 'https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react/index.d.ts'
+    exports:
+      'index.d.ts': 'react.d.ts'
+  }
+
+  # ReactDOM
+  # https://reactjs.org/docs/cdn-links.html
+  {
+    source: 'link'
+    name: 'reactDOM'
+    address: 'https://unpkg.com/react-dom@16/umd/react-dom.<%= isProduction ? "production.min" : "development" %>.js'
+    exports:
+      'react-dom.<%= isProduction ? "production.min" : "development" %>.js': 'reactDOM.js'
+  }
+
+  # ReactDOM TS Definition
+  # https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react-dom/index.d.ts
+  {
+    source: 'link'
+    name: 'reactDOM.d.ts'
+    address: 'https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react-dom/index.d.ts'
+    exports:
+      'index.d.ts': 'reactDOM.d.ts'
+  }
+
+  # Redux
+  # https://cdnjs.com/libraries/redux
+  {
+    source: 'link'
+    name: 'redux'
+    address: 'https://cdnjs.<%= cloudFlareHost %>/ajax/libs/redux/3.6.0/redux<%= dotMinIfProduction %>.js'
+    exports:
+      'redux<%= dotMinIfProduction %>.js': 'redux.js'
+  }
+
+  # Redux TS Definition
+  # https://raw.githubusercontent.com/reactjs/redux/master/index.d.ts
+  {
+    source: 'link'
+    name: 'redux.d.ts'
+    address: 'https://raw.githubusercontent.com/reactjs/redux/master/index.d.ts'
+    exports:
+      'index.d.ts': 'redux.d.ts'
+  }
+
+  # React-Redux
+  # https://cdnjs.com/libraries/react-redux
+  {
+    source: 'link'
+    name: 'react-redux'
+    address: 'https://cdnjs.<%= cloudFlareHost %>/ajax/libs/react-redux/5.0.5/react-redux<%= dotMinIfProduction %>.js'
+    exports:
+      'react-redux<%= dotMinIfProduction %>.js': 'reactRedux.js'
+  }
+
+  # React-Redux TS Definition
+  # https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react-redux/index.d.ts
+  {
+    source: 'link'
+    name: 'reactRedux.d.ts'
+    address: 'https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react-redux/index.d.ts'
+    exports:
+      'index.d.ts': 'reactRedux.d.ts'
+  }
+
+  # React-Motion
+  # https://cdnjs.com/libraries/react-motion
+  {
+    source: 'link'
+    name: 'react-motion'
+    address: 'https://unpkg.com/react-motion@0.5.0/build/react-motion.js'
+    exports:
+      'react-motion.js': 'reactMotion.js'
+  }
+
+  # React-Collapse
+  # https://github.com/nkbt/react-collapse
+  {
+    source: 'link'
+    name: 'react-collapse'
+    address: 'https://unpkg.com/react-collapse@4.0.3/build/react-collapse<%= dotMinIfProduction %>.js'
+    exports:
+      'react-collapse<%= dotMinIfProduction %>.js': 'reactCollapse.js'
+    requireMap:
+      'react': './external/react.js'
+      'react-motion': './external/reactMotion.js'
+  }
+
+  # React-Collapse TS Definition
+  # https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react-collapse/index.d.ts
+  {
+    source: 'link'
+    name: 'react-collapse.d.ts'
+    address: 'https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react-collapse/index.d.ts'
+    exports:
+      'index.d.ts': 'reactCollapse.d.ts'
+  }
+
+  # Immutability Helper
+  # https://github.com/kolodny/immutability-helper
+  {
+    source: 'npm'
+    name: 'immutability-helper'
+    webpack:
+      entry: 'index.js'
+      out: 'immutability-helper.bundled.js'
+      production: '<%= isProduction =>'
+    exports:
+      'immutability-helper.bundled.js': 'immutabilityHelper.js'
+  }
+
+  # Immutability Helper TS Definition
+  # https://raw.githubusercontent.com/kolodny/immutability-helper/master/index.d.ts
+  {
+    source: 'link'
+    name: 'immutability-helper.d.ts'
+    address: 'https://raw.githubusercontent.com/kolodny/immutability-helper/master/index.d.ts'
+    exports:
+      'index.d.ts': 'immutabilityHelper.d.ts'
+  }
+
+  # Babel Polyfill
+  # https://cdnjs.com/libraries/babel-polyfill
+  {
+    source: 'link'
+    name: 'babel-polyfill'
+    address: 'https://cdnjs.<%= cloudFlareHost %>/ajax/libs/babel-polyfill/6.23.0/polyfill<%= dotMinIfProduction %>.js'
+    exports:
+      'polyfill<%= dotMinIfProduction %>.js': 'polyfill.js'
+  }
+
+  # Pako
+  # https://github.com/nodeca/pako
+  {
+    source: 'link'
+    name: 'Pako'
+    address: 'https://cdnjs.<%= cloudFlareHost %>/ajax/libs/pako/1.0.6/pako<%= dotMinIfProduction %>.js'
+    exports:
+      'pako<%= dotMinIfProduction %>.js': 'pako.js'
+  }
+
+  # Pako TS Definition
+  # https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/pako/index.d.ts
+  {
+    source: 'link'
+    name: 'pako.d.ts'
+    address: 'https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/pako/index.d.ts'
+    exports:
+      'index.d.ts': 'pako.d.ts'
+  }
+]

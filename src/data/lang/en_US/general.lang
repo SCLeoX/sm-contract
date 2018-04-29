@@ -1,0 +1,28 @@
+Language: en_US
+lab.sm
+  landing
+    start   : Start
+    compare : Compare
+    import  : Import
+    export  : Export
+    about   : About
+    privacyNotice: $
+      Translation not available
+  contentTitle
+    profile : Profile
+    compare : Compare
+    import  : Import Data
+    export  : Export Data
+    about   : About
+  profile
+    categoryIndexLabel : Part $1
+    id                 : ID:
+    index              : Index:
+    about
+      title : Preface
+      desc: $
+        Translation not available
+    finish
+      title : Finished!
+      desc: $
+        Translation not available

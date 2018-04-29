@@ -1,0 +1,34 @@
+Language: zh_CN
+lab.sm.about
+  openSource
+    link  : 链接
+    title : 开源信息
+    desc: $
+      SM Contract 在 GitHub 开源。如果要修改数据 (问题/描述文本) 请同时修改 data 文件夹
+      内的 ts 文件和 data/lang 文件夹内对应的语言文件。如果搞不定，发个 issue 就可以了。
+  faq
+    title : 常见问题 (FAQ)
+    content: $
+      ! SM Contract 会泄露/出售我的信息吗？
+
+      不会。所有信息只存在于您的设备上。
+
+      ! 问题的标识 (ID) 和索引有什么区别？
+
+      问题标识 (ID) 是用于保证导出的 base64 字符串向上兼容的 (确保使用老版本导出的数据在新
+      版本也可以正常读取)。
+
+      问题索引决定问题出现顺序。
+
+      ! 我可以添加新的问题/修改现有问题吗？
+
+      可以，请使用上方提供的 GitHub 链接。
+
+      ! 语言好生硬啊，完全读不通...
+
+      对不起... 我语文太差了... 不过没关系，SM Contract 是开源的，您可以使用上方提供
+      的 GitHub 链接来提出修改 (Pull Request/Issue)。
+
+      ! 我能离线使用 SM Contract 吗？
+
+      可以，请按下 Ctrl + S 将网页保存到本地。不过部分字体可能会加载不出来。

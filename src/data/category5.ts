@@ -1,0 +1,188 @@
+import { ICategory } from './categories';
+import { HardcorenessMetrics, QuestionType } from './Enums';
+const MULTIPLE_CHOICE = QuestionType.MULTIPLE_CHOICE;
+const FILL_BLANK = QuestionType.FILL_BLANK;
+
+export const category5: ICategory = {
+  categoryId: 5,
+  name: '@{lab.sm.data.c5.name}',
+  description: '@{lab.sm.data.c5.description}',
+  questions: [{
+    questionId: 0,
+    type: MULTIPLE_CHOICE,
+    title: '@{lab.sm.data.c5.q0.title}',
+    description: '@{lab.sm.data.c5.q0.description}',
+    hardcoreness: HardcorenessMetrics.UNAVAILABLE,
+    bianswer: true,
+    choices: [
+      '@{lab.sm.data.c5.q0.a0}',
+      '@{lab.sm.data.c5.q0.a1}',
+      '@{lab.sm.data.c5.q0.a2}',
+      '@{lab.sm.data.c5.q0.a3}',
+    ],
+  }, {
+    questionId: 1,
+    type: MULTIPLE_CHOICE,
+    title: '@{lab.sm.data.c5.q1.title}',
+    description: '@{lab.sm.data.c5.q1.description}',
+    hardcoreness: HardcorenessMetrics.UNAVAILABLE,
+    bianswer: true,
+    choices: [
+      '@{lab.sm.data.c5.q1.a0}',
+      '@{lab.sm.data.c5.q1.a1}',
+      '@{lab.sm.data.c5.q1.a2}',
+      '@{lab.sm.data.c5.q1.a3}',
+    ],
+    dependencies: {
+      '5.0': [ 0, 1, 2 ],
+      'S:0.2': [ 0 ],
+      'M:0.4': [ 0 ],
+    },
+  }, {
+    questionId: 2,
+    type: MULTIPLE_CHOICE,
+    title: '@{lab.sm.data.c5.q2.title}',
+    description: '@{lab.sm.data.c5.q2.description}',
+    warning: '@{lab.sm.data.c5.q2.warning}',
+    hardcoreness: HardcorenessMetrics.UNAVAILABLE,
+    bianswer: true,
+    choices: [
+      '@{lab.sm.data.c5.q2.a0}',
+      '@{lab.sm.data.c5.q2.a1}',
+      '@{lab.sm.data.c5.q2.a2}',
+      '@{lab.sm.data.c5.q2.a3}',
+    ],
+    dependencies: {
+      '5.0': [ 0, 1, 2 ],
+      'S:0.2': [ 0 ],
+      'M:0.4': [ 0 ],
+      '5.1': [ 0, 1, 2 ],
+      'S:0.3': [ 0 ],
+    },
+  }, {
+    questionId: 3,
+    type: MULTIPLE_CHOICE,
+    title: '@{lab.sm.data.c5.q3.title}',
+    description: '@{lab.sm.data.c5.q3.description}',
+    hardcoreness: HardcorenessMetrics.UNAVAILABLE,
+    bianswer: true,
+    choices: [
+      '@{lab.sm.data.c5.q3.a0}',
+      '@{lab.sm.data.c5.q3.a1}',
+      '@{lab.sm.data.c5.q3.a2}',
+      '@{lab.sm.data.c5.q3.a3}',
+    ],
+    dependencies: {
+      '5.0': [ 0, 1, 2 ],
+      'S:0.2': [ 0 ],
+    },
+  }, {
+    questionId: 4,
+    type: MULTIPLE_CHOICE,
+    title: '@{lab.sm.data.c5.q4.title}',
+    description: '@{lab.sm.data.c5.q4.description}',
+    hardcoreness: HardcorenessMetrics.UNAVAILABLE,
+    bianswer: true,
+    choices: [
+      '@{lab.sm.data.c5.q4.a0}',
+      '@{lab.sm.data.c5.q4.a1}',
+      '@{lab.sm.data.c5.q4.a2}',
+      '@{lab.sm.data.c5.q4.a3}',
+    ],
+    dependencies: {
+      '5.0': [ 0, 1, 2 ],
+    },
+  }, {
+    questionId: 5,
+    type: MULTIPLE_CHOICE,
+    title: '@{lab.sm.data.c5.q5.title}',
+    description: '@{lab.sm.data.c5.q5.description}',
+    hardcoreness: HardcorenessMetrics.UNAVAILABLE,
+    bianswer: true,
+    choices: [
+      '@{lab.sm.data.c5.q5.a0}',
+      '@{lab.sm.data.c5.q5.a1}',
+      '@{lab.sm.data.c5.q5.a2}',
+      '@{lab.sm.data.c5.q5.a3}',
+    ],
+    dependencies: {
+      '5.0': [ 0, 1, 2 ],
+      '5.4': [ 0, 1, 2 ],
+      'S:0.2': [ 0 ],
+    },
+  }, {
+    questionId: 6,
+    type: MULTIPLE_CHOICE,
+    title: '@{lab.sm.data.c5.q6.title}',
+    description: '@{lab.sm.data.c5.q6.description}',
+    hardcoreness: HardcorenessMetrics.UNAVAILABLE,
+    bianswer: true,
+    choices: [
+      '@{lab.sm.data.c5.q6.a0}',
+      '@{lab.sm.data.c5.q6.a1}',
+      '@{lab.sm.data.c5.q6.a2}',
+      '@{lab.sm.data.c5.q6.a3}',
+    ],
+    dependencies: {
+      '5.0': [ 0, 1, 2 ],
+      '5.4': [ 0, 1, 2 ],
+      'S:0.2': [ 0 ],
+      '5.5': [ 0, 1, 2 ],
+      'S:0.3': [ 0 ],
+    },
+  }, {
+    questionId: 7,
+    type: MULTIPLE_CHOICE,
+    title: '@{lab.sm.data.c5.q7.title}',
+    description: '@{lab.sm.data.c5.q7.description}',
+    hardcoreness: HardcorenessMetrics.UNAVAILABLE,
+    bianswer: true,
+    choices: [
+      '@{lab.sm.data.c5.q7.a0}',
+      '@{lab.sm.data.c5.q7.a1}',
+      '@{lab.sm.data.c5.q7.a2}',
+      '@{lab.sm.data.c5.q7.a3}',
+    ],
+    dependencies: {
+      '5.0': [ 0, 1, 2 ],
+      '5.4': [ 0, 1, 2 ],
+      'M:0.2': [ 0 ],
+    },
+  }, {
+    questionId: 8,
+    type: MULTIPLE_CHOICE,
+    title: '@{lab.sm.data.c5.q8.title}',
+    description: '@{lab.sm.data.c5.q8.description}',
+    hardcoreness: HardcorenessMetrics.UNAVAILABLE,
+    bianswer: true,
+    choices: [
+      '@{lab.sm.data.c5.q8.a0}',
+      '@{lab.sm.data.c5.q8.a1}',
+      '@{lab.sm.data.c5.q8.a2}',
+      '@{lab.sm.data.c5.q8.a3}',
+    ],
+    dependencies: {
+      '5.0': [ 0, 1, 2 ],
+      '5.4': [ 0, 1, 2 ],
+      'S:0.4': [ 0 ],
+    },
+  }, {
+    questionId: 9,
+    type: MULTIPLE_CHOICE,
+    title: '@{lab.sm.data.c5.q9.title}',
+    description: '@{lab.sm.data.c5.q9.description}',
+    hardcoreness: HardcorenessMetrics.UNAVAILABLE,
+    bianswer: true,
+    choices: [
+      '@{lab.sm.data.c5.q9.a0}',
+      '@{lab.sm.data.c5.q9.a1}',
+      '@{lab.sm.data.c5.q9.a2}',
+      '@{lab.sm.data.c5.q9.a3}',
+    ],
+    dependencies: {
+      '5.0': [ 0, 1, 2 ],
+      '5.4': [ 0, 1, 2 ],
+      'M:0.4': [ 0 ],
+    },
+  }],
+};

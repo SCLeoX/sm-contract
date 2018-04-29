@@ -1,0 +1,155 @@
+.content {
+  h1, h2, h3, h4 {
+    margin: 0
+  }
+  p {
+    margin: 0 0 6px 0;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h4 {
+    color: #aaa;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  div.link-container {
+    display: block;
+    margin: 10px 0 0 0;
+  }
+  a {
+    color: #4285f4;
+    cursor: pointer;
+    text-decoration: none;
+    user-select: none;
+    &:hover {
+      text-decoration: underline,
+    }
+  }
+  .input-field {
+    overflow-x: hidden;
+    margin-top: 4px;
+    >.label {
+      color: #555;
+      font-size: 12px;
+      pointer-events: none;
+      position: relative;
+      transform-origin: 0;
+      transition:
+        transform 0.2s,
+        color 0.2s;
+      &:not(.raised) {
+        color: #aaa;
+        transform: scale(1.60) translateY(14px);
+      }
+    }
+    >input {
+      border: none;
+      border-bottom: 1px solid #aaa;
+      font-size: 20px;
+      outline: none;
+      padding: 3px 0 5px 0;
+      width: 100%;
+    }
+    >.underline {
+      background-color: #00bcd4;
+      height: 2px;
+      position: relative;
+      top: -1px;
+      transform: scaleX(0);
+      transform-origin: 0;
+      transition: transform 0.5s;
+      width: 100%;
+    }
+    &.focused {
+      >.label {
+        color: #00bcd4;
+      }
+      >.underline {
+        transform: scaleX(1);
+      }
+    }
+  }
+  &.compare {
+    p.error {
+      color: red;
+    }
+    table {
+      width: 100%;
+      border-spacing: 0;
+      th, td {
+        padding: 2px 0;
+        text-align: left;
+      }
+      td.empty, td.unavailable {
+        color: #aaa;
+      }
+    }
+  }
+  &.export {
+    code {
+      background-color: #eee;
+      display: block;
+      margin-top: 20px;
+      padding: 20px;
+      word-wrap: break-word;
+    }
+  }
+  &.profile {
+    .question {
+      margin-top: 10px;
+      .info {
+        color: #aaa;
+        float: right;
+        font-size: 10px;
+        margin: 6px 0 0 0;
+        text-align: right;
+      }
+      .hardcoreness-meter {
+        font-size: 16px;
+        font-weight: normal;
+        margin-left: 10px;
+      }
+      .warning {
+        color: red;
+      }
+      table {
+        @media (max-width: 568px) {
+          width: 100%;
+        }
+        border-spacing: 0;
+        user-select: none;
+        >tbody>tr:nth-child(even), thead>tr {
+          background-color: rgba(242, 242, 242, 0.5);
+        }
+        th, td {
+          @media (min-width: 568px) {
+            padding: 8px 40px;
+          }
+          @media (max-width: 568px) {
+            padding: 12px 0;
+          }
+          text-align: center;
+        }
+        >tbody {
+          cursor: pointer;
+          >tr>td:first-child {
+            font-weight: bold;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+          >tr>td:not(:first-child) {
+            transform: translateY(2px);
+          }
+        }
+      }
+    }
+  }
+}
