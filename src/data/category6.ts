@@ -33,7 +33,7 @@ export const category6: ICategory = {
       '@{lab.sm.data.c6.q1.a3}',
     ],
     dependencies: {
-      '6.0': [ 0, 1, 2, 3 ],
+      '6.0': [ 0, 1, 2 ],
     },
   }, {
     questionId: 2,
@@ -48,7 +48,7 @@ export const category6: ICategory = {
       '@{lab.sm.data.c6.q2.a3}',
     ],
     dependencies: {
-      '6.0': [ 0, 1, 2, 3 ],
+      '6.0': [ 0, 1, 2 ],
     },
   }],
 };
