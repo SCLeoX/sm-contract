@@ -52,14 +52,20 @@ lab.sm
         祝您填写愉快。
     finish
       title : 完成！
-      desc: $
-        恭喜！您已经将 SM Contract 填写完了！您可以点击左上角的「SM Contract」来回到首页
-        并使用「导出数据」来导出您的数据并发送给您的搭档或者使用「对比」来和您搭档发来的数据进
-        行对比。
+      desc
+        before: $
+          恭喜！您已经将 SM Contract 填写完了！您可以点击左上角的「SM Contract」来回到首
+          页并使用「导出数据」来导出您的数据并发送给您的搭档或者使用「对比」来和您搭档发来的
+          数据进行对比。
+        after: $
+          见面之后请先确定好安全词，玩的时候也请务必注意安全。
 
-        见面之后请先确定好安全词，玩的时候也请务必注意安全。
-
-        最后，预祝您玩的愉快！
+          最后，预祝您玩的愉快！
+      group
+        link : https://t.me/sm_contract_cn
+        desc
+          before : 如果您想要分享您的填写结果或者吐槽 SM Contract，您可以加这个组：
+          after  : 。
     hardcoreness
       undet : 口味：未决定
       mild  : 口味：轻

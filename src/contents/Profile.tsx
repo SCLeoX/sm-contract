@@ -314,7 +314,19 @@ export class Profile extends React.PureComponent {
         <Card>
           <h1>{ '@{lab.sm.profile.finish.title}' }</h1>
           <SimpleFormat>
-            { '@{lab.sm.profile.finish.desc}' }
+            { '@{lab.sm.profile.finish.desc.before}' }
+          </SimpleFormat>
+          <p>
+            { '@{lab.sm.profile.finish.group.desc.before}' }
+            <a
+              target='_blank'
+              href='@{lab.sm.profile.finish.group.link}'
+              children='@{lab.sm.profile.finish.group.link}'
+            />
+            { '@{lab.sm.profile.finish.group.desc.after}' }
+          </p>
+          <SimpleFormat>
+            { '@{lab.sm.profile.finish.desc.after}' }
           </SimpleFormat>
         </Card>
       </div>
