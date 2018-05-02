@@ -1,0 +1,121 @@
+Language: zh_HK
+lab.sm
+  landing
+    start : 開始填寫
+    compare : 對比
+    import : 導入數據
+    export : 導出數據
+    about : 關於
+    privacyNotice: $
+      SM Contract 僅使用 Cookie 來記錄您使用的語言。您使用 SM Contract 時產生的所有數據
+      僅會被保存在您的瀏覽器中。沒有數據會被上傳至 SM Contract 服務器。
+  contentTitle
+    profile : 資料
+    compare : 對比
+    import : 導入數據
+    export : 導出數據
+    about : 關於
+  profile
+    categoryIndexLabel : 第 $1 部分
+    id : 標識 (ID)：
+    index : 索引：
+    about
+      title : 前言
+      desc: $
+        i 表面上來看，S 可以肆意對 M 做任何自己喜歡的事情，實際上，是 S 將 M 希望的事情，給
+        予 M。如果 M 被對方胡亂的對待，那樣叧能稱作單純的虐待吧。
+
+        i 就像這樣，SM 不僅是 S 對 M 的關係，還有著 S 要做 M 喜歡的事情這種逆向的關係存在其
+        中。
+
+        i 現實中的 SM，S 對 M 的性趣和嗜好的了解是不可欠缺的，M 也必須完全的信任 S，才能安
+        心的接受 S 的各種行為。所以，SM 中的 S 應該是服務（Service）才對，沒有對 M 的服務
+        精神和愛情，這種關係是無法成立的。
+
+        >i ——《我的身體，我的心》
+
+        歡迎來到 SM Contract。由於 SM 玩法眾多，主奴之間需要經過長時間的溝通才能弄明白雙方
+        對什麼類型的 play 感興趣。為了簡化這個過程，SM Contract 誕生了。
+
+        SM Contract 是一份專為 SM 愛好者設計的調查表，涵蓋了大量在 play 之前主奴之間應該溝
+        通好的項目。填寫完成後，您可以使用「導出數據」功能將您填寫的信息轉換為一個 base64 字
+        符串並發送給您的搭檔，並由您的搭檔使用「對比」功能來生成一份直觀的對比表格。當然，您也
+        可以要求您的搭檔發送其填寫的信息，並由您來生成這份表格。
+
+        您接下來看到的所有問題都是可選的，但是為了更有效地交流，強烈建議認真填寫每一個問題。於
+        此同時，您填寫的所有信息都會被自動保存到您的瀏覽器中。沒有任何信息被上傳
+        至 SM Contract 服務器。
+
+        SM Contract 是開源的，源代碼的地址可以在「關於」中找到。如果您發現了 bug 或者您所感
+        興趣的 play 沒有被列出，亦或者您想補充/修改介紹文字，歡迎開 Pull Request/Issue。
+
+        祝您填寫愉快。
+    finish
+      title : 完成！
+      desc
+        before: $
+          恭喜！您已經將 SM Contract 填寫完了！您可以點擊左上角的「SM Contract」來回到首
+          頁並使用「導出數據」來導出您的數據並發送給您的搭檔或者使用「對比」來和您搭檔發來的
+          數據進行對比。
+        after: $
+          見面之後請先確定好安全詞，玩的時候也請務必注意安全。
+
+          最後，預祝您玩的愉快！
+      group
+        link : https://t.me/sm_contract_cn
+        desc
+          before : 如果您想要分享您的填寫結果或者吐槽 SM Contract，您可以加這個組：
+          after : 。
+    hardcoreness
+      undet : 口味：未決定
+      mild : 口味：輕
+      mid : 口味：中等
+      ext : 口味：重
+  mcq
+    asM : 作為受虐者 (M) 時
+    asS : 作為施虐者 (S) 時
+    items : 選項
+  fbq
+    asM : 作為受虐者 (M) 時的$1
+    asS : 作為施虐者 (S) 時的$1
+  compare
+    mError : 對比失敗，受虐者 (M) 數據格式錯誤
+    sError : 對比失敗，施虐者 (S) 數據格式錯誤
+    start : 開始對比
+    title : 對比
+    desc: $
+      「對比」可以幫助您與您的搭檔找到雙方都感興趣的項目。您的搭檔需要通過「導出數據」來獲得一
+      個 base64 字符串並將其發送給您。您需要將收到的字符串填入您的搭檔所充當的角色所對應的文
+      本框內，然後將您要充當的角色所對應的文本框留空，最後點擊「開始對比」來獲得對比結果。
+    label
+      m : 請將受虐者 (M) 的數據粘貼在此，留空則使用您的信息
+      s : 請將施虐者 (S) 的數據粘貼在此，留空則使用您的信息
+    table
+      clear : 清除對比結果
+      empty : 未填寫
+      item : 項目
+      mChoice : 受虐者 (M) 的選擇
+      sChoice : 施虐者 (S) 的選擇
+      switchToShowAll : 切換至「顯示全部」
+      switchToShowAvailable : 切換至「僅顯示有效問題」
+      title : 結果
+      unavailable : 不可用
+  export
+    title : 導出數據
+    desc: $
+      SM Contract 會自動將您填寫的信息保存到瀏覽器的 localStorage 中，於此同時，您所填寫
+      的信息已經被壓縮到下面這個 base64 字符串中。您可以將其複製到任何地方進行保存，並在另一
+      台電腦中使用「導入數據」功能導入。
+
+      或者，您可以將導出的數據發送給您的搭檔，您的搭檔可以用「對比」功能來查看你們之間適合進行
+      什麼類型的 play。
+  import
+    confirm : 您確定要替換當前填寫的所有信息嗎？ (請再次點擊)
+    failed : 導入失敗，數據格式錯誤
+    import : 開始導入
+    label : 請將要導入的數據粘貼在這個輸入框中
+    successful : 導入成功
+    title : 導入數據
+    desc: $
+      您可以將之前使用「導出數據」獲得的 base64 字符串導入。請注意，導入數據將會覆蓋您目前填
+      寫的所有信息。此操作不可逆。
