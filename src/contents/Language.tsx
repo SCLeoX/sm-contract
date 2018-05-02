@@ -38,6 +38,7 @@ export class Language extends React.PureComponent {
         <Card>
           <h1>Language Selection</h1>
           <LanguageOption display='简体中文' name='zh_CN'/>
+          <LanguageOption display='繁體中文（香港）—— by Sora' name='zh_HK'/>
           <LanguageOption display='English (United States)' name='en_US'/>
         </Card>
       </div>
