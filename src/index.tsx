@@ -1,6 +1,6 @@
 import { Cover } from './components/Cover';
-import * as React from './external/react.js';
-import { render } from './external/reactDOM.js';
+import * as React from './external/react';
+import { render } from './external/reactDOM';
 import { Provider } from './external/reactRedux';
 import { applyMiddleware, compose, createStore } from './external/redux';
 import { decode, encode } from './persistence';

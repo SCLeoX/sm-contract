@@ -1,6 +1,6 @@
 import { Card } from '../components/Card';
 import { SimpleFormat } from '../components/SimpleFormat';
-import * as React from './../external/react';
+import * as React from '../external/react';
 
 export class About extends React.PureComponent {
   public render() {
@@ -14,6 +14,7 @@ export class About extends React.PureComponent {
               target='_blank'
               href='https://github.com/SCLeoX/sm-contract'
               children='https://github.com/SCLeoX/sm-contract'
+              rel='noopener'
             />
           </p>
           <SimpleFormat>{ '@{lab.sm.about.openSource.desc}' }</SimpleFormat>

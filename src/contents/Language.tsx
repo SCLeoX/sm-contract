@@ -1,6 +1,6 @@
 import { Card } from '../components/Card';
 import { LinkButton } from '../components/LinkButton';
-import * as React from './../external/react';
+import * as React from '../external/react';
 
 interface ILanguageOptionProps {
   readonly display: string;

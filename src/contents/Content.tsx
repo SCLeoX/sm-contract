@@ -1,4 +1,4 @@
-import * as React from './../external/react';
+import * as React from '../external/react';
 import { About } from './About';
 import { Compare } from './Compare';
 import { ContentType } from './ContentType';

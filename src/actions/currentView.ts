@@ -1,4 +1,4 @@
-import { ContentType } from './../contents/ContentType';
+import { ContentType } from '../contents/ContentType';
 
 export const ACTION_LOWER_COVER = 'CV_LOWER_COVER';
 export const ACTION_SET_CONTENT = 'CV_SET_CONTENT';

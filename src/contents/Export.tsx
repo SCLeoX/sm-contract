@@ -1,6 +1,6 @@
 import { Card } from '../components/Card';
 import { SimpleFormat } from '../components/SimpleFormat';
-import * as React from './../external/react';
+import * as React from '../external/react';
 
 export class Export extends React.PureComponent {
   private codeRef: HTMLElement;
