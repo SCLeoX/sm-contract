@@ -5,18 +5,9 @@
     source: 'link'
     name: 'react'
     address: 'https://unpkg.com/react@16/umd/react.<%= isProduction ? "production.min" : "development" %>.js'
+    type: '@types/react'
     exports:
       'react.<%= isProduction ? "production.min" : "development" %>.js': 'react.js'
-  }
-
-  # React TS Definition
-  # https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react/index.d.ts
-  {
-    source: 'link'
-    name: 'react.d.ts'
-    address: 'https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react/index.d.ts'
-    exports:
-      'index.d.ts': 'react.d.ts'
   }
 
   # ReactDOM
@@ -25,18 +16,9 @@
     source: 'link'
     name: 'reactDOM'
     address: 'https://unpkg.com/react-dom@16/umd/react-dom.<%= isProduction ? "production.min" : "development" %>.js'
+    type: '@types/react-dom'
     exports:
       'react-dom.<%= isProduction ? "production.min" : "development" %>.js': 'reactDOM.js'
-  }
-
-  # ReactDOM TS Definition
-  # https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react-dom/index.d.ts
-  {
-    source: 'link'
-    name: 'reactDOM.d.ts'
-    address: 'https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react-dom/index.d.ts'
-    exports:
-      'index.d.ts': 'reactDOM.d.ts'
   }
 
   # Redux
@@ -58,25 +40,16 @@
     exports:
       'index.d.ts': 'redux.d.ts'
   }
-
+  
   # React-Redux
   # https://cdnjs.com/libraries/react-redux
   {
     source: 'link'
     name: 'react-redux'
     address: 'https://cdnjs.<%= cloudFlareHost %>/ajax/libs/react-redux/5.0.5/react-redux<%= dotMinIfProduction %>.js'
+    type: '@types/react-redux'
     exports:
       'react-redux<%= dotMinIfProduction %>.js': 'reactRedux.js'
-  }
-
-  # React-Redux TS Definition
-  # https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react-redux/index.d.ts
-  {
-    source: 'link'
-    name: 'reactRedux.d.ts'
-    address: 'https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react-redux/index.d.ts'
-    exports:
-      'index.d.ts': 'reactRedux.d.ts'
   }
 
   # React-Motion
@@ -85,6 +58,7 @@
     source: 'link'
     name: 'react-motion'
     address: 'https://unpkg.com/react-motion@0.5.0/build/react-motion.js'
+    type: '@types/react-motion'
     exports:
       'react-motion.js': 'reactMotion.js'
   }
@@ -95,21 +69,12 @@
     source: 'link'
     name: 'react-collapse'
     address: 'https://unpkg.com/react-collapse@4.0.3/build/react-collapse<%= dotMinIfProduction %>.js'
+    type: '@types/react-collapse'
     exports:
       'react-collapse<%= dotMinIfProduction %>.js': 'reactCollapse.js'
     requireMap:
       'react': './external/react.js'
       'react-motion': './external/reactMotion.js'
-  }
-
-  # React-Collapse TS Definition
-  # https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react-collapse/index.d.ts
-  {
-    source: 'link'
-    name: 'react-collapse.d.ts'
-    address: 'https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/react-collapse/index.d.ts'
-    exports:
-      'index.d.ts': 'reactCollapse.d.ts'
   }
 
   # Immutability Helper
@@ -151,17 +116,8 @@
     source: 'link'
     name: 'Pako'
     address: 'https://cdnjs.<%= cloudFlareHost %>/ajax/libs/pako/1.0.6/pako<%= dotMinIfProduction %>.js'
+    type: '@types/pako'
     exports:
       'pako<%= dotMinIfProduction %>.js': 'pako.js'
-  }
-
-  # Pako TS Definition
-  # https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/pako/index.d.ts
-  {
-    source: 'link'
-    name: 'pako.d.ts'
-    address: 'https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/pako/index.d.ts'
-    exports:
-      'index.d.ts': 'pako.d.ts'
   }
 ]
