@@ -15,10 +15,10 @@ export const category6: ICategory = {
     hardcoreness: HardcorenessMetrics.EXTREME,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c6.q0.a0}',
-      '@{lab.sm.data.c6.q0.a1}',
-      '@{lab.sm.data.c6.q0.a2}',
-      '@{lab.sm.data.c6.q0.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
   }, {
     questionId: 1,
@@ -27,10 +27,10 @@ export const category6: ICategory = {
     hardcoreness: HardcorenessMetrics.EXTREME,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c6.q1.a0}',
-      '@{lab.sm.data.c6.q1.a1}',
-      '@{lab.sm.data.c6.q1.a2}',
-      '@{lab.sm.data.c6.q1.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '6.0': [ 0, 1, 2 ],
@@ -42,10 +42,10 @@ export const category6: ICategory = {
     hardcoreness: HardcorenessMetrics.EXTREME,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c6.q2.a0}',
-      '@{lab.sm.data.c6.q2.a1}',
-      '@{lab.sm.data.c6.q2.a2}',
-      '@{lab.sm.data.c6.q2.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '6.0': [ 0, 1, 2 ],

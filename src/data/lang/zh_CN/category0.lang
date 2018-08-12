@@ -15,31 +15,17 @@ lab.sm.data.c0
   q1
     title: 生理性别
     description: 请选择您的生理性别。您的生理性别会限制您所能进行的 play 类型。
-    a0: 男
-    a1: 女
-    a2: 其他
   q2
     title: 您有阴茎吗？
-    a0: 有
-    a1: 没有
   q3
     title: 您能正常射精吗？
-    a0: 能
-    a1: 不能
   q4
     title: 您有阴道吗？
-    a0: 有
-    a1: 没有
   q5
     title: 您可以分泌乳汁吗？
-    a0: 可以
-    a1: 不可以
   q6
     title: 心理性别
     description: 请选择您在 SM play 中想被视为的性别。
-    a0: 男
-    a1: 女
-    a2: 其他
   q7
     title: 偏好称呼
     description: 请填写您在 SM play 中想被如何称呼。

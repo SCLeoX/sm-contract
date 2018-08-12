@@ -29,9 +29,9 @@ export const category0: ICategory = {
     bianswer: false,
     uncomparable: true,
     choices: [
-      '@{lab.sm.data.c0.q1.a0}',
-      '@{lab.sm.data.c0.q1.a1}',
-      '@{lab.sm.data.c0.q1.a2}',
+      '@{lab.sm.data.shared.male}',
+      '@{lab.sm.data.shared.female}',
+      '@{lab.sm.data.shared.other}',
     ],
   }, {
     questionId: 2,
@@ -41,8 +41,8 @@ export const category0: ICategory = {
     bianswer: false,
     uncomparable: true,
     choices: [
-      '@{lab.sm.data.c0.q2.a0}',
-      '@{lab.sm.data.c0.q2.a1}',
+      '@{lab.sm.data.shared.have}',
+      '@{lab.sm.data.shared.haveNot}',
     ],
     dependencies: {
       0.1: [ 0, 2 ],
@@ -55,8 +55,8 @@ export const category0: ICategory = {
     bianswer: false,
     uncomparable: true,
     choices: [
-      '@{lab.sm.data.c0.q3.a0}',
-      '@{lab.sm.data.c0.q3.a1}',
+      '@{lab.sm.data.shared.can}',
+      '@{lab.sm.data.shared.cannot}',
     ],
     dependencies: {
       0.1: [ 0, 2 ],
@@ -70,8 +70,8 @@ export const category0: ICategory = {
     bianswer: false,
     uncomparable: true,
     choices: [
-      '@{lab.sm.data.c0.q4.a0}',
-      '@{lab.sm.data.c0.q4.a1}',
+      '@{lab.sm.data.shared.have}',
+      '@{lab.sm.data.shared.haveNot}',
     ],
     dependencies: {
       0.1: [ 1, 2 ],
@@ -84,8 +84,8 @@ export const category0: ICategory = {
     bianswer: false,
     uncomparable: true,
     choices: [
-      '@{lab.sm.data.c0.q5.a0}',
-      '@{lab.sm.data.c0.q5.a1}',
+      '@{lab.sm.data.shared.can}',
+      '@{lab.sm.data.shared.cannot}',
     ],
     dependencies: {
       0.1: [ 1, 2 ],
@@ -99,9 +99,9 @@ export const category0: ICategory = {
     bianswer: true,
     uncomparable: true,
     choices: [
-      '@{lab.sm.data.c0.q6.a0}',
-      '@{lab.sm.data.c0.q6.a1}',
-      '@{lab.sm.data.c0.q6.a2}',
+      '@{lab.sm.data.shared.male}',
+      '@{lab.sm.data.shared.female}',
+      '@{lab.sm.data.shared.other}',
     ],
   }, {
     questionId: 7,

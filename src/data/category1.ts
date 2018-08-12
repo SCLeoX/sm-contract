@@ -15,10 +15,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.UNAVAILABLE,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q0.a0}',
-      '@{lab.sm.data.c1.q0.a1}',
-      '@{lab.sm.data.c1.q0.a2}',
-      '@{lab.sm.data.c1.q0.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
   }, {
     questionId: 1,
@@ -28,10 +28,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.MILD,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q1.a0}',
-      '@{lab.sm.data.c1.q1.a1}',
-      '@{lab.sm.data.c1.q1.a2}',
-      '@{lab.sm.data.c1.q1.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '1.0': [ 0, 1, 2 ],
@@ -45,10 +45,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.UNAVAILABLE,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q2.a0}',
-      '@{lab.sm.data.c1.q2.a1}',
-      '@{lab.sm.data.c1.q2.a2}',
-      '@{lab.sm.data.c1.q2.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '1.0': [ 0, 1, 2 ],
@@ -61,10 +61,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.MILD,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q3.a0}',
-      '@{lab.sm.data.c1.q3.a1}',
-      '@{lab.sm.data.c1.q3.a2}',
-      '@{lab.sm.data.c1.q3.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '1.0': [ 0, 1, 2 ],
@@ -78,10 +78,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.MILD,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q4.a0}',
-      '@{lab.sm.data.c1.q4.a1}',
-      '@{lab.sm.data.c1.q4.a2}',
-      '@{lab.sm.data.c1.q4.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '1.0': [ 0, 1, 2 ],
@@ -95,10 +95,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.MILD,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q5.a0}',
-      '@{lab.sm.data.c1.q5.a1}',
-      '@{lab.sm.data.c1.q5.a2}',
-      '@{lab.sm.data.c1.q5.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '1.0': [ 0, 1, 2 ],
@@ -112,10 +112,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.MILD,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q6.a0}',
-      '@{lab.sm.data.c1.q6.a1}',
-      '@{lab.sm.data.c1.q6.a2}',
-      '@{lab.sm.data.c1.q6.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '1.0': [ 0, 1, 2 ],
@@ -130,10 +130,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.MILD,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q7.a0}',
-      '@{lab.sm.data.c1.q7.a1}',
-      '@{lab.sm.data.c1.q7.a2}',
-      '@{lab.sm.data.c1.q7.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '1.0': [ 0, 1, 2 ],
@@ -147,10 +147,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.MILD,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q8.a0}',
-      '@{lab.sm.data.c1.q8.a1}',
-      '@{lab.sm.data.c1.q8.a2}',
-      '@{lab.sm.data.c1.q8.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '1.0': [ 0, 1, 2 ],
@@ -165,10 +165,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.MEDIUM,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q9.a0}',
-      '@{lab.sm.data.c1.q9.a1}',
-      '@{lab.sm.data.c1.q9.a2}',
-      '@{lab.sm.data.c1.q9.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '1.0': [ 0, 1, 2 ],
@@ -181,10 +181,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.MILD,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q10.a0}',
-      '@{lab.sm.data.c1.q10.a1}',
-      '@{lab.sm.data.c1.q10.a2}',
-      '@{lab.sm.data.c1.q10.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '1.0': [ 0, 1, 2 ],
@@ -196,10 +196,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.MILD,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q11.a0}',
-      '@{lab.sm.data.c1.q11.a1}',
-      '@{lab.sm.data.c1.q11.a2}',
-      '@{lab.sm.data.c1.q11.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '1.0': [ 0, 1, 2 ],
@@ -212,10 +212,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.MILD,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q12.a0}',
-      '@{lab.sm.data.c1.q12.a1}',
-      '@{lab.sm.data.c1.q12.a2}',
-      '@{lab.sm.data.c1.q12.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '1.0': [ 0, 1, 2 ],
@@ -228,10 +228,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.MILD,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q13.a0}',
-      '@{lab.sm.data.c1.q13.a1}',
-      '@{lab.sm.data.c1.q13.a2}',
-      '@{lab.sm.data.c1.q13.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '1.0': [ 0, 1, 2 ],
@@ -244,10 +244,10 @@ export const category1: ICategory = {
     hardcoreness: HardcorenessMetrics.MEDIUM,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c1.q14.a0}',
-      '@{lab.sm.data.c1.q14.a1}',
-      '@{lab.sm.data.c1.q14.a2}',
-      '@{lab.sm.data.c1.q14.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
     dependencies: {
       '1.0': [ 0, 1, 2 ],

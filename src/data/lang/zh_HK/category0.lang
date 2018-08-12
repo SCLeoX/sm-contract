@@ -15,31 +15,17 @@ lab.sm.data.c0
   q1
     title: 生理性別
     description: 請選擇您的生理性別。您的生理性別會限制您所能進行的 play 類型。
-    a0: 男
-    a1: 女
-    a2: 其他
   q2
     title: 您有陰莖嗎？
-    a0: 有
-    a1: 沒有
   q3
     title: 您能正常射精嗎？
-    a0: 能
-    a1: 不能
   q4
     title: 您有陰道嗎？
-    a0: 有
-    a1: 沒有
   q5
     title: 您可以分泌乳汁嗎？
-    a0: 可以
-    a1: 不可以
   q6
     title: 心理性別
     description: 請選擇您在 SM play 中想被視為的性別。
-    a0: 男
-    a1: 女
-    a2: 其他
   q7
     title: 偏好稱呼
     description: 請填寫您在 SM play 中想被如何稱呼。

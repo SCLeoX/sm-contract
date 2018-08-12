@@ -15,10 +15,10 @@ export const category7: ICategory = {
     hardcoreness: HardcorenessMetrics.MILD,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c7.q0.a0}',
-      '@{lab.sm.data.c7.q0.a1}',
-      '@{lab.sm.data.c7.q0.a2}',
-      '@{lab.sm.data.c7.q0.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
   }, {
     questionId: 1,
@@ -28,10 +28,10 @@ export const category7: ICategory = {
     hardcoreness: HardcorenessMetrics.MILD,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c7.q1.a0}',
-      '@{lab.sm.data.c7.q1.a1}',
-      '@{lab.sm.data.c7.q1.a2}',
-      '@{lab.sm.data.c7.q1.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
   }, {
     questionId: 2,
@@ -42,10 +42,10 @@ export const category7: ICategory = {
     hardcoreness: HardcorenessMetrics.MEDIUM,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c7.q2.a0}',
-      '@{lab.sm.data.c7.q2.a1}',
-      '@{lab.sm.data.c7.q2.a2}',
-      '@{lab.sm.data.c7.q2.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
   }, {
     questionId: 3,
@@ -56,10 +56,10 @@ export const category7: ICategory = {
     hardcoreness: HardcorenessMetrics.EXTREME,
     bianswer: true,
     choices: [
-      '@{lab.sm.data.c7.q3.a0}',
-      '@{lab.sm.data.c7.q3.a1}',
-      '@{lab.sm.data.c7.q3.a2}',
-      '@{lab.sm.data.c7.q3.a3}',
+      '@{lab.sm.data.shared.ua0}',
+      '@{lab.sm.data.shared.ua1}',
+      '@{lab.sm.data.shared.ua2}',
+      '@{lab.sm.data.shared.ua3}',
     ],
   }],
 };
